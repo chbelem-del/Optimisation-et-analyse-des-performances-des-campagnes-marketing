@@ -1,102 +1,108 @@
-#  Marketing Campaign Performance Dashboard | Power BI & Python
+#  Analyse des Campagnes Marketing | Power BI & Python
 
-##  Project Overview
+##  Présentation du projet
 
-This project analyzes customer purchasing behavior and evaluates the effectiveness of marketing campaigns using **Python** for data exploration and statistical analysis, and **Power BI** for interactive visualization.
+Ce projet a pour objectif d'analyser les performances des campagnes marketing ainsi que le comportement d'achat des clients à partir d'un jeu de données contenant des informations démographiques, transactionnelles et marketing.
 
-The objective is to identify which campaigns generated the highest customer engagement and revenue, understand customer demographics, and discover the most purchased products to support data-driven marketing decisions.
-
----
-
-##  Project Objectives
-
-- Perform an Exploratory Data Analysis (EDA) to understand customer behavior.
-- Apply statistical tests to measure the impact of marketing campaigns.
-- Clean and transform data using Power Query.
-- Build a relational data model in Power BI.
-- Develop an interactive dashboard to monitor campaign performance and product sales.
+L'analyse combine **Python** pour l'Exploratory Data Analysis (EDA) et les tests statistiques, puis **Power BI** pour la modélisation des données et la création d'un tableau de bord interactif permettant d'identifier les campagnes les plus performantes et les produits les plus achetés.
 
 ---
 
-##  Technologies Used
+##  Objectifs
+
+- Réaliser une analyse exploratoire des données (EDA).
+- Mesurer l'impact des campagnes marketing grâce à des tests statistiques.
+- Préparer et transformer les données avec Power Query.
+- Construire un modèle de données optimisé dans Power BI.
+- Développer un dashboard interactif pour suivre les performances des campagnes et des ventes.
+
+---
+
+##  Technologies utilisées
 
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy)
 - **Power BI**
 - **Power Query**
 - **DAX**
-- **CSV Files**
 
 ---
 
-##  Project Workflow
+##  Étapes du projet
 
-### 1. Exploratory Data Analysis (Python)
-- Data cleaning and preprocessing
-- Descriptive statistics
-- Missing values and duplicate detection
-- Distribution analysis with histograms and boxplots
-- Campaign acceptance analysis
-- Customer demographic exploration
+### 1. Analyse exploratoire des données (Python)
 
-### 2. Statistical Analysis
-- Independent t-test / ANOVA
-- Chi-Square Test
-- Correlation analysis
-- Interpretation of p-values to identify significant factors influencing purchasing behavior
+- Nettoyage et préparation des données
+- Analyse des statistiques descriptives
+- Détection des valeurs manquantes et des doublons
+- Visualisation des distributions (histogrammes, boxplots)
+- Analyse des campagnes acceptées et du comportement des clients
 
-### 3. Data Transformation
-- Pivot and unpivot operations in Power Query
-- Campaign, Product, and Platform tables creation
-- Data cleaning and normalization
-- Relationship validation between tables
+### 2. Analyse statistique
 
-### 4. Data Modeling
-- Relational model centered on **Customer ID**
-- DAX measures for campaign and product performance
-- Optimized relationships for interactive reporting
+- Test **t de Student** / **ANOVA**
+- Test du **Chi²**
+- Analyse des corrélations
+- Interprétation des **p-values** afin d'identifier les facteurs ayant un impact significatif sur les ventes
 
-### 5. Dashboard Development
-- Campaign performance overview
-- Revenue by campaign and product
-- Product sales distribution
-- Customer purchases by platform (Web, Store, Catalog)
-- Interactive slicers for dynamic analysis
+### 3. Transformation des données
 
----
+- Pivot / Unpivot avec Power Query
+- Création des tables Campagnes, Produits et Plateformes
+- Nettoyage et renommage des colonnes
+- Vérification des relations entre les tables
 
-##  Dashboard Features
+### 4. Modélisation des données
 
-- Campaign Performance KPIs
-- Revenue Analysis
-- Product Performance
-- Campaign Acceptance Analysis
-- Platform Distribution
-- Interactive Filters & Slicers
-- Business-oriented visualizations
+- Création des relations autour de l'ID Client
+- Développement de mesures DAX
+- Optimisation du modèle de données
+
+### 5. Dashboard Power BI
+
+Le tableau de bord permet notamment de visualiser :
+
+- Le nombre de clients par campagne
+- Le chiffre d'affaires par campagne
+- Les ventes par produit
+- La répartition des achats par plateforme (Web, Magasin, Catalogue)
+- Des filtres interactifs pour une analyse dynamique
 
 ---
 
-##  Project Structure
+##  Fonctionnalités
 
-```
+- Dashboard interactif
+- KPI marketing
+- Analyse des campagnes
+- Analyse des ventes par produit
+- Analyse des plateformes d'achat
+- Slicers et filtres dynamiques
+- Visualisations orientées aide à la décision
+
+---
+
+##  Structure du projet
+
+```text
 Marketing-Campaign-Analysis/
 │
 ├── Marketing_Campaign.pbix
 ├── notebooks/
-│   └── EDA_and_Statistical_Analysis.ipynb
+│   └── EDA_Analyse_Statistique.ipynb
 ├── Dataset/
 ├── Images/
 └── README.md
 ```
 
+---
 
-##  Skills Demonstrated
+##  Compétences développées
 
-- Exploratory Data Analysis (EDA)
-- Statistical Testing
-- Data Cleaning & Transformation
+- Analyse exploratoire des données (EDA)
+- Statistiques appliquées
+- Nettoyage et préparation des données
 - Power Query
-- Data Modeling
+- Modélisation des données
 - DAX
 - Data Visualization
 - Marketing Analytics
@@ -104,10 +110,10 @@ Marketing-Campaign-Analysis/
 
 ---
 
-##  Author
+##  Auteur
 
 **Chaimaa**
 
-Junior Data Analyst
+**Junior Data Analyst**
 
-**Tools:** Power BI • Python • SQL • Excel • Tableau
+**Compétences :** Power BI • Python • SQL • Excel • Tableau
